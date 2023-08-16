@@ -3,8 +3,8 @@ body {
 }
 
 * {
-  border: 1px solid teal;
-  box-sizing: border-box;
+border: 1px solid black;
+box-sizing: border-box;
 }
 
 .container {
@@ -41,7 +41,6 @@ aside  {
 aside > div {
   flex-grow: 10;
   margin: .5em;
-  /* min-width: 20vh; */
 }
 
 main {
@@ -49,6 +48,7 @@ main {
   flex-grow: 3;
   margin: .5em;
 }
+
 
 @media (min-width: 600px) {
   .container {
